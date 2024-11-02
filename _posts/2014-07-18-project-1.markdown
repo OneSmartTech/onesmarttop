@@ -1,6 +1,6 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Little White
+subtitle: Dog Cat Translator
 layout: default
 modal-id: 1
 date: 2014-07-18
@@ -10,6 +10,12 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Little White is an interactive tool App focused on pet owners with dogs and cats, designed to promote deep interaction with their pets. Build a deeper bond with your dog and cat through entertaining translation, interaction with the Dog and cat Language Translator, and training.
 
 ---
+
+
+
+
+
+

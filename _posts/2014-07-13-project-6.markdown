@@ -1,6 +1,6 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: One Smart Little White
+subtitle: Pet life cycle health management
 layout: default
 modal-id: 6
 date: 2014-07-15
@@ -10,6 +10,9 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: One Smart Little White is a pet health management App for the whole life cycle of pets, through the daily record reminder of pets, diet management, exercise data, posture record, heart rate change, and surrounding temperature, effective health care for pets, scientific pet care.
 
 ---
+
+
+

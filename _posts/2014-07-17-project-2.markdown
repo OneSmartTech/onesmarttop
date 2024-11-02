@@ -1,6 +1,6 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Pet Friends
+subtitle: Virtual pets, pet chat
 layout: default
 modal-id: 2
 date: 2014-07-17
@@ -10,6 +10,8 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Pet Friends is a virtual pet raising and healthy companion App for pet lovers. The products provide different breeds, characters, images of pet adoption, communication and companionship functions. And support different scene switching, growth, dress up and other functions. Grow up healthy and happy with pet friends!.
 
 ---
+
+
