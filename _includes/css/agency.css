@@ -60,6 +60,7 @@ h6 {
     margin: 0 auto;
 }
 
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -844,6 +845,43 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+
+.number-circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #{{ site.data.template.color.primary }};;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  flex - shrink: 0;
+  flex - grow: 0;
+  min-width: 60px;
+  min-height: 60px;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.number-circle:hover {
+  background-color: #{{ site.data.template.color.primary }};
+}
+
+.feature_item {
+    display: flex;
+    align-items: center;
+}
+
+.feature-content-right{
+
+    text-align: right;
+}
+
+.feature-heading{
+    margin-top: 48px;
+}
+
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};

@@ -1,6 +1,6 @@
 ---
 title: Pet Friends
-subtitle: Virtual pets, pet chat
+subtitle: AI pets, pet chat
 layout: default
 modal-id: 2
 date: 2014-07-17
