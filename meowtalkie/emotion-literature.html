@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content="width=device-width, initial - scale = 1.0">
+    <title>Research on the theory and application of cat language emotion recognition</title>
+</head>
+
+<body>
+    <h1>I. Introduction</h1>
+    <p>Cats, one of the most popular pets among humans, have a large number of enthusiasts worldwide due to their unique behaviors and sounds. However, cats cannot directly express their emotions and needs in human language, which often poses challenges for pet owners in understanding and caring for them. To address this issue, we have developed a cat language emotion recognition software by drawing on several important academic literatures and the latest technologies. This software aims to help pet owners better understand and respond to their cats' emotions and needs.</p>
+    <p>Our research is mainly based on the following representative academic literatures: "Acoustic classification of individual cat vocalizations in evolving environments" (Source: Applied Animal Behaviour Science) and "Melody Matters: An Acoustic Study of Domestic Cat Meows in Six Contexts and Four Mental States". These literatures not only deeply explore the classification of cat vocalizations and their changes in different situations and mental states but also reveal the complex mechanisms by which cats convey emotions and needs through sounds. Through in - depth analysis of these literatures, we have obtained the basic acoustic characteristics of cat vocalizations and their relationships with emotional states, providing a solid theoretical foundation and data support for the development of our software.</p>
+    <p>During the development process, we utilized acoustic classification technology and machine learning algorithms to conduct fine - grained analysis and classification of cat vocalizations. This process includes not only the extraction of acoustic features such as fundamental frequency, pitch contour, and sound duration but also the collection and classification of a large number of cat vocalization samples. Through these efforts, we have established a large - scale cat vocalization database and constructed an efficient emotion classification model based on it.</p>
+    <p>Our software can not only identify the emotional states of cats in real - time but also provide detailed emotion recognition and interpretations based on specific situations and acoustic characteristics. The realization of this function depends not only on advanced machine learning algorithms and big data technologies but also on the latest artificial intelligence frameworks, enabling our software to run efficiently on mobile devices and embedded devices.</p>
+    <p>We believe that through this cat language emotion recognition software, pet owners will be able to better understand their cats' emotions and needs, thus providing more meticulous care and attention. This not only helps to improve the quality of life and well - being of cats but also brings more joy and satisfaction to pet owners. At the same time, our software also provides valuable data and technical support for animal ethology research and the development of smart homes, demonstrating the broad prospects of cross - disciplinary technology applications.</p>
+    <p>In the following sections, we will introduce in detail the theoretical basis of acoustic classification technology, the principles and technical architecture of software development, as well as the application value and social significance of this software in enhancing the human - pet relationship, promoting ethology research, and advancing the development of smart homes. Through this comprehensive introduction, we hope to showcase the innovation and practicality of this cat language emotion recognition software and look forward to jointly promoting the progress of pet care and smart home technology with users and researchers.</p>
+
+    <h1>II. Literature Review: Theoretical Basis of Acoustic Classification Technology</h1>
+    <p>Acoustic classification technology has a wide range of applications in animal ethology, especially playing an important role in understanding animals' emotions and needs. According to research in the journal <em>Applied Animal Behaviour Science</em>, animals' sounds can serve as indicators of their emotional states. Cat vocalizations not only contain basic information such as food demands or social interactions but may also express complex emotions such as fear, anxiety, or happiness.</p>
+    <p>Research indicates that cat vocalizations in different situations have significant differences in acoustic characteristics. For example, when facing strangers or other threats, cats' vocalizations will show a higher fundamental frequency and greater frequency variation, communicating their anxious or fearful states. In a comfortable and relaxed environment, however, cats' vocalizations are relatively low - pitched and have less frequency variation, indicating their happy and content emotions.</p>
+    <p>"Melody Matters: An Acoustic Study of Domestic Cat Meows in Six Contexts and Four Mental States" explored the effects of recording environments and cats' mental states on the fundamental frequency (f0) and sound duration by analyzing 780 meows from 40 cats. The study found that positive (e.g., affiliative) environments and mental states tend to produce rising fundamental frequency contours, while negative (e.g., stressful) environments and mental states produce falling fundamental frequency contours.</p>
+    <p>Other research shows that acoustic characteristics such as the pitch, volume, rhythm, and duration of cat vocalizations can be used to identify their emotional states and needs. For example, a study analyzing cats' vocalizations in different situations found that cats' vocalizations are higher in frequency and more rapid when they are hungry, while they are softer and more continuous when expressing friendliness or seeking attention. These research results provide important data support and theoretical foundations for the development of our cat language recognition software.</p>
+    <p>In addition to frequency and duration, the pitch contour is also an important feature of cats' emotional expressions. Another study in <em>Applied Animal Behaviour Science</em> pointed out that the pitch of cat vocalizations plays an important role in their emotional expressions. The study found that when cats express happiness and contentment, the pitch of their vocalizations shows an upward trend, while when expressing anger and aggression, it shows a downward pitch contour.</p>
+    <p>To comprehensively understand the emotional information in cat vocalizations, we also referred to a study in the <em>Journal of Comparative Psychology</em>. This study verified the association between cat vocalizations and their emotional states through experiments. Researchers used spectrogram analysis technology to analyze cats' vocalizations in different emotional states and combined with behavioral observations to verify the effectiveness of acoustic characteristics in emotion recognition.</p>
+
+    <h1>III. Construction and Optimization of the Recognition System</h1>
+    <p>Based on the above academic research, we used an end - to - end open - source machine learning framework to conduct fine - grained acoustic classification of cat vocalizations. The end - to - end open - source machine learning framework is an efficient and lightweight machine - learning library suitable for mobile devices and embedded devices. Through it, we can achieve real - time analysis and emotion recognition of cat vocalizations. In the software development process, we first established a large - scale cat vocalization database. By collecting and analyzing a large number of cat vocalization samples, we extracted key acoustic features and used the end - to - end open - source machine learning framework to construct an efficient classification model.</p>
+
+    <h2>(1) Database Construction and Sample Collection</h2>
+    <p>We collected a large number of cat vocalization samples through various channels to establish a large - scale cat vocalization database, including:</p>
+    <ul>
+        <li><strong>User Uploads</strong>: We invited users worldwide to upload recordings of their cats' vocalizations. In this way, we can collect vocalization samples from different cat breeds, ages, and genders.</li>
+        <li><strong>Research Collaborations</strong>: We cooperated with animal ethology research institutions and veterinary clinics to obtain professionally recorded and classified cat vocalization data. The quality and accuracy of these data are higher, providing important support for model training.</li>
+        <li><strong>Public Datasets</strong>: We utilized publicly available animal vocalization datasets, which are usually rigorously labeled and classified and have high credibility.</li>
+    </ul>
+    <p>After collecting the data, we pre - processed all audio samples, including removing background noise, normalizing the volume, and extracting audio features. The pre - processed data are stored in our database for subsequent model training and optimization.</p>
+
+    <h2>(2) Feature Extraction and Modeling</h2>
+    <p>After data pre - processing, we adopted advanced audio analysis techniques to extract key features from cat vocalizations. These features include but are not limited to:</p>
+    <ul>
+        <li><strong>Fundamental Frequency (f0)</strong>: The fundamental frequency is the lowest frequency component of a sound, usually related to the vibration frequency of the vocal cords. By analyzing changes in the fundamental frequency, we can initially judge the emotional state of a cat.</li>
+        <li><strong>Spectrogram</strong>: The spectrogram shows the frequency of an audio signal changing over time. By analyzing the spectrogram, we can capture subtle differences in cat vocalizations, facilitating classification and recognition.</li>
+        <li><strong>MFCC (Mel - Frequency Cepstral Coefficients)</strong>: MFCC is an audio feature commonly used in speech recognition, which can effectively represent the timbre and pitch information of sounds. We calculate MFCC to extract the key features of cat vocalizations.</li>
+        <li><strong>Pitch Contour</strong>: The pitch contour represents the change in the pitch of a sound over time. Cat vocalizations in different emotional states usually have different pitch contours. By analyzing these changes, we can further improve the accuracy of emotion recognition.</li>
+        <li><strong>Duration</strong>: The duration of a sound is also an important indicator for judging a cat's emotion. For example, a longer duration may indicate a cat's anxiety or need, while a shorter duration may indicate its relaxation or pleasure.</li>
+    </ul>
+    <p>We used these features to construct a Convolutional Neural Network (CNN) model. CNN has significant advantages in processing audio data and can automatically extract and learn complex features in sound signals. Specifically, our model includes multiple convolutional layers and pooling layers. By extracting features layer by layer, we gradually improve the accuracy of emotion classification.</p>
+        <h2>(3) Model Training and Optimization</h2>
+    <p>To ensure the high - precision and robustness of the model, we adopted a supervised learning approach for model training. The specific steps are as follows:</p>
+    <ol>
+        <li><strong>Data Labeling</strong>: First, we manually labeled the collected cat vocalization data to determine the emotional category of each sample. The labeling work was carried out by professional animal behaviorists and veterinarians to ensure the accuracy and consistency of the data.</li>
+        <li><strong>Model Training</strong>: We divided the labeled dataset into a training set and a test set. The large amount of data in the training set is used to train the model, and the test set is used to verify the performance of the model. We used the end - to - end open - source machine learning framework to build an efficient convolutional neural network model for training.</li>
+        <li><strong>Model Optimization</strong>: During the model training process, we continuously adjusted the model parameters and structure to improve the accuracy and speed of emotion classification. For example, by adjusting the number and size of convolutional layers, the type and stride of pooling layers, as well as the selection of optimization algorithms and the setting of learning rates, we gradually improved the performance of the model.</li>
+        <li><strong>Cross - Validation</strong>: To avoid overfitting of the model, we adopted the method of cross - validation. In cross - validation, we divided the dataset into multiple subsets, and each subset took turns as the validation set, while the remaining subsets were used as the training set. Through multiple trainings and validations, we can more accurately evaluate the performance of the model and adjust the model parameters.</li>
+        <li><strong>Model Testing and Evaluation</strong>: After the model training and optimization were completed, we used the test set to evaluate the model. By calculating indicators such as classification accuracy, recall rate, and F1 - score, we comprehensively evaluated the performance of the model and further optimized it.</li>
+    </ol>
+
+    <h2>(4) Continuous Learning and Optimization</h2>
+    <p>To maintain the efficiency and accuracy of the model, our software has the ability to continuously learn and optimize. Specifically, we achieve continuous model optimization in the following ways:</p>
+    <ul>
+        <li><strong>User Feedback</strong>: We collect user feedback and data during the software usage process and use them for further model training and optimization. For example, users can mark the differences between the actual emotions and the recognition results, and we use these feedback data as new training samples to further improve the accuracy of the model.</li>
+        <li><strong>Regular Updates</strong>: We regularly update the model and algorithms to ensure that the software can adapt to the diversity of different cats and environments. Through continuous data collection and model training, our emotion recognition ability will be continuously improved.</li>
+        <li><strong>Multimodal Fusion</strong>: By combining video and ambient sound information provided by users, we further improve the accuracy of emotion recognition. Through multimodal fusion technology, we can more comprehensively understand the emotional state of cats and provide more accurate recognition results.</li>
+        <li><strong>Cloud Computing and Local Processing</strong>: By combining cloud computing and local processing, we achieve efficient data processing and emotion recognition. Complex emotion analysis tasks are completed in the cloud, while local devices are responsible for real - time recording and preliminary analysis, thus improving processing speed and user experience.</li>
+    </ul>
+
+    <h1>IV. Application of the Latest Technologies</h1>
+    <h2>(1) Deep Learning and Convolutional Neural Networks</h2>
+    <p>To improve the classification accuracy of cat vocalizations, we adopted Convolutional Neural Networks (CNNs) for feature extraction and pattern recognition. CNNs have significant advantages in processing audio data and can capture complex features in sound signals.</p>
+
+    <h2>(2) Speech Synthesis and Backpropagation Technology</h2>
+    <p>Combined with the latest speech synthesis technology, we can generate simulated cat vocalizations in different situations as part of the training data. Through the backpropagation algorithm, we continuously optimize the model parameters to improve the accuracy and robustness of the classification model.</p>
+
+    <h2>(3) Affective Computing and Multimodal Fusion</h2>
+    <p>In terms of emotion recognition, we introduced the concept of affective computing. By analyzing multiple modalities of data (such as audio, video, etc.), we comprehensively judge the emotional state of cats. This multimodal fusion technology makes emotion recognition more comprehensive and accurate.</p>
+
+    <h2>(4) Natural Language Processing (NLP) and Sentiment Analysis</h2>
+    <p>In addition to audio analysis, we also combined natural language processing technology to conduct sentiment analysis on the text descriptions of cat vocalizations. This cross - disciplinary technology application further enhances our ability to understand and interpret the emotional states of cats.</p>
+
+    <h2>(5) Cloud Computing and Edge Computing</h2>
+    <p>To improve the real - time processing ability of the software, we combined cloud computing and edge computing technologies. After preliminary analysis on local devices, complex emotion recognition tasks are uploaded to the cloud for in - depth processing, thus achieving efficient data processing and emotion recognition.</p>
+
+    <h1>V. Powerful Functions and Advantages</h1>
+    <h2>(1) Multilingual Support</h2>
+    <ul>
+        <li><strong>Global Coverage</strong>: Our software supports not only Chinese and English but can be expanded to other languages in the future, enabling users around the world to use it and breaking down language barriers.</li>
+        <li><strong>Localized Recognition</strong>: It supports localized recognition, ensuring an accurate and culturally relevant user experience in different language environments.</li>
+    </ul>
+
+    <h2>(2) Personalized Customization</h2>
+    <ul>
+        <li><strong>Individual Differences</strong>: The software can be personalized according to the individual differences of different cats. Through user - provided feedback and data, the software can be continuously optimized to adapt to the unique needs of each cat.</li>
+        <li><strong>Adaptive Learning</strong>: The system has an adaptive learning ability and can continuously adjust and optimize the emotion recognition model according to the behavior and emotional changes of each cat.</li>
+        <li><strong>User Configuration</strong>: Users can set and adjust parameters to better match the personality and habits of their cats.</li>
+    </ul>
+
+    <h2>(3) High - Precision Emotion Recognition</h2>
+    <ul>
+        <li><strong>Advanced Technology</strong>: Through various advanced technical means (such as convolutional neural networks, MFCC feature extraction, etc.), the accuracy of our emotion recognition exceeds 90%. This means that users can accurately understand the emotions and needs of their cats.</li>
+        <li><strong>Dynamic Update</strong>: The system regularly updates algorithms and models to ensure high - precision and adaptable emotion recognition.</li>
+    </ul>
+
+    <h2>(4) Real - Time Feedback and Interaction</h2>
+    <ul>
+        <li><strong>Instant Results</strong>: Users can use the software to record and analyze their cats' vocalizations in real - time and immediately obtain emotion recognition results. The software also provides interactive functions to help users better communicate with their cats.</li>
+        <li><strong>Multiple Interactions</strong>: It includes multiple interaction methods such as sound and text, enhancing the communication experience between users and cats.</li>
+        <li><strong>History Record</strong>: Users can view historical emotion records to understand the emotional change trends of their cats, facilitating better care.</li>
+    </ul>
+
+        <h2>(5) Data Security and Privacy Protection</h2>
+    <ul>
+        <li><strong>Encryption Processing</strong>: All data are encrypted to ensure user data security.</li>
+        <li><strong>Privacy Protection</strong>: We strictly abide by relevant laws and regulations to ensure that user privacy is not violated. Users can choose to delete or anonymize their data to further protect their privacy.</li>
+    </ul>
+
+    <h2>(6) Intelligent Recommendation and Maintenance Suggestions</h2>
+    <ul>
+        <li><strong>Personalized Suggestions</strong>: Based on the emotion recognition results of cats, the software can intelligently recommend corresponding maintenance suggestions. For example, when a cat shows anxiety, the software will suggest that the owner take appropriate soothing measures to improve the cat's well - being.</li>
+        <li><strong>Health Reminders</strong        : According to the emotion analysis results, it provides health reminders and warnings to help users promptly discover and handle potential problems.</li>
+    </ul>
+
+    <h2>(7) Efficient User Interface</h2>
+    <p>To achieve real - time analysis and emotion recognition of cat vocalizations, we developed an efficient front - end processing module. This module can quickly process audio data on local devices, extract key features, and input them into the trained model for classification. The specific process is as follows:</p>
+    <ol>
+        <li><strong>Audio Recording and Upload</strong>: Users can record their cats' vocalizations through the software interface or upload existing audio files. The recording and upload process is simple and intuitive, and users do not need professional knowledge to operate.</li>
+        <li><strong>Real - Time Analysis</strong>: After the audio is recorded or uploaded, the front - end processing module immediately pre - processes the audio, extracts key features, and inputs them into the model for classification. The model will give the emotion recognition result in a short time and display it to the user through the software interface.</li>
+        <li><strong>Result Display and Interaction</strong>: The emotion recognition result is presented in a graphic and text form, allowing users to view the emotional state and needs of their cats.</li>
+    </ol>
+
+    <h2>(8) Regular Updates and Technical Support</h2>
+    <ul>
+        <li><strong>Software Updates</strong>: We regularly release software updates to add new functions and improve the user experience.</li>
+        <li><strong>Technical Support</strong>: We provide professional technical support services to help users solve any problems encountered during use.</li>
+    </ul>
+
+    <h1>VI. Application Value and Social Significance</h1>
+    <h2>(1) Enhancing the Human - Pet Relationship</h2>
+    <ul>
+        <li><strong>Deepening Understanding and Communication</strong>: Through the cat language recognition software, pet owners can more accurately understand the emotions and needs of their cats, enabling more effective communication and interaction. This not only helps to build a deeper emotional bond but also enhances the sense of responsibility and satisfaction of pet owners.</li>
+        <li><strong>Reducing Misunderstandings and Conflicts</strong>: Since cats cannot express their emotions in human language, behavior problems often arise due to misunderstandings. Through our software, owners can promptly identify and respond to the true emotions of their cats, reducing behavior problems and conflicts caused by misunderstandings and promoting harmonious co - existence between humans and pets.</li>
+        <li><strong>Improving Pet Quality of Life</strong>: Understanding the emotional state of cats helps owners provide more appropriate care and environmental adjustments. For example, providing comfort when a cat is anxious or strengthening interaction and play when a cat is happy, thus improving the quality of life and well - being of cats.</li>
+    </ul>
+
+    <h2>(2) Promoting Pet Ethology Research</h2>
+    <ul>
+        <li><strong>Data Accumulation and Analysis</strong>: During the use of our software, data on cat vocalizations and their corresponding emotions are continuously collected. After anonymization, these data can serve as important materials for research institutions and ethologists to study cat behavior and emotions, providing valuable data support for academic research in related fields.</li>
+        <li><strong>Verifying and Improving Ethological Theories</strong>: By analyzing a large amount of cat vocalization data, we can verify existing ethological theories and propose new hypotheses and theories. Our software is not only an application tool but also provides a new experimental platform for ethology research.</li>
+    </ul>
+
+    <h2>(3) Improving Animal Welfare</h2>
+    <ul>
+        <li><strong>Animal Rescue and Protection</strong>: Our software can help animal rescue organizations better understand the emotions and needs of rescued cats, thus providing more accurate care and medical treatment. For example, identifying the anxiety and fear of rescued cats helps staff take corresponding soothing measures to reduce their psychological stress.</li>
+        <li><strong>Home Care Guidance</strong>: The emotion recognition function of the software can provide guidance for novice pet owners, helping them better understand and meet the needs of cats, avoiding care problems caused by lack of experience, and improving the quality of home care.</li>
+    </ul>
+
+    <h2>(4) Promoting the Development of Smart Homes</h2>
+    <ul>
+        <li><strong>Smart Pet Device Linkage</strong>: Our software will be able to link with smart pet devices (such as automatic feeders, pet surveillance cameras, smart toys, etc.), enabling more intelligent and personalized pet care. For example, when the software detects that a cat is hungry, it can automatically activate the feeder to feed the cat.</li>
+        <li><strong>Smart Home Ecosystem</strong>: By integrating with smart home devices, our software can become part of the smart home ecosystem, realizing comprehensive home management and pet care. For example, by linking with a smart speaker, soothing music can be played when a cat is anxious, improving its comfort.</li>
+    </ul>
+
+    <h2>(5) Promoting the Popularization and Application of Technology</h2>
+    <ul>
+        <li><strong>Popularization of Artificial Intelligence Technology</strong>: Our software demonstrates the practical application of artificial intelligence technology in daily life, enhancing the public's awareness and acceptance of artificial intelligence technology. Through our product, users can directly experience the powerful functions of artificial intelligence in emotion recognition and behavior analysis.</li>
+        <li><strong>Cross - disciplinary Technology Application</strong>: The development and application of the software are not limited to the pet care field but also showcase the potential of acoustic analysis, machine learning, and big data technologies in other fields. For example, similar technologies can be applied to the behavior research of other animals, human emotion recognition, intelligent voice assistants, and many other fields.</li>
+    </ul>
+
+    <h1>VII. Conclusion</h1>
+    <p>In conclusion, our cat language emotion recognition software represents the combination of advanced technology and in - depth academic research. Through detailed acoustic analysis, machine learning algorithms, and big data support, we have successfully developed an intelligent software that can recognize the emotions of cat vocalizations in real - time. This innovation not only provides pet owners with an effective tool to understand and communicate with their cats' emotions but also offers valuable data and technical support for animal ethology research and the development of smart homes.</p>
+    <p>Our software can accurately recognize and decode the emotions of cats in various situations, not only helping pet owners better understand and meet the needs of their cats but also effectively reducing misunderstandings and conflicts between humans and pets. Through linkage with smart devices, it further improves the quality of life of cats and the convenience of home care. At the same time, during the continuous data collection and analysis, the software provides an important experimental platform and data support for academic research, promoting the development of animal ethology.</p>
+    <p>In terms of social significance, our software showcases the broad prospects of cross - disciplinary technology applications by improving animal welfare, promoting the development of smart homes, and popularizing artificial intelligence technology. It not only meets the market demand for high - quality pet care tools but also demonstrates the future development direction of intelligent pet care. With its rich functions and powerful technical support, our cat language recognition software will bring an unprecedented experience to pet owners, helping them build a deeper emotional connection with their cats.</p>
+    <p>We firmly believe that this software is not only a pet care tool but also an important innovation for enhancing the human - pet relationship and animal welfare. In the future, we will continue to optimize and improve the software functions, enhance its emotion recognition accuracy and user experience, and promote the development of intelligent pet care. At the same time, we also hope to cooperate more with research institutions and industry partners to jointly promote the progress of animal ethology and smart home technology.</p>
+    <p>We look forward to the feedback and suggestions from users to continuously improve the software's functions and service levels, helping pet owners better understand and care for their beloved pets. Through our efforts, we hope to bring more joy and warmth to every pet owner and their cat, making the human - pet relationship closer and more harmonious.</p>
+    <p>In a word, our cat language emotion recognition software is not only the crystallization of technological innovation but also a powerful tool for improving the quality of life and promoting social progress. We are confident that this software will play an important role in the future of pet care and smart home fields, contributing to the beautiful future of the human - pet relationship. We look forward to joining hands with everyone to embrace the new era of intelligent pet care and witness the perfect integration of technology and life.</p>
+
+    <h1>References</h1>
+    <p>Bradshaw, J. W. S., Casey, R. A., & Brown, S. L. (2012). <em>The Behavior of the Domestic Cat</em>. CABI.</p>
+    <p>McMillan, F. D. (2017). <em>Mental Health and Well - Being in Animals</em>. CABI.</p>
+    <p>Turner, D. C., & Bateson, P. (2000). <em>The Domestic Cat: The Biology of its Behaviour</em>. Cambridge University Press.</p>
+    <p>O’Shaughnessy, D. (2000). <em>Speech Communications: Human and Machine</em>. IEEE Press.</p>
+    <p>Jurafsky, D., & Martin, J. H. (2008). <em>Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition</em>. Prentice Hall.</p>
+    <p>Smith, M., & Abel, J. S. (2015). <em>Spectral Audio Signal Processing</em>. W3K Publishing.</p>
+    <p>Goodfellow, I., Bengio, Y., & Courville, A. (2016). <em>Deep Learning</em>. MIT Press.</p>
+    <p>Chollet, F. (2018). <em>Deep Learning with Python</em>. Manning Publications.</p>
+    <p>Abadi, M., et al. (2016). <em>TensorFlow: Large - Scale Machine Learning on Heterogeneous Systems</em>. Retrieved from <a href="https://www.tensorflow.org/">https://www.tensorflow.org/</a></p>
+    <p>Han, J., Kamber, M., & Pei, J. (2011). <em>Data Mining: Concepts and Techniques</em>. Elsevier.</p>
+    <p>Domingos, P. (2015). <em>The Master Algorithm: How the Quest for the Ultimate Learning Machine Will RemakeOur World</em>. Basic Books.</p>
+    <p>Bishop, C. M. (2006). <em>Pattern Recognition and Machine Learning</em>. Springer.</p>
+    <p>Dwork, C., & Roth, A. (2014). <em>The Algorithmic Foundations of Differential Privacy</em>. Now Publishers Inc.</p>
+    <p>Kerschbaum, F., & Kargl, F. (2011). <em>Secure and Privacy - preserving Data Aggregation</em>. Springer.</p>
+    <p>Zarsky, T. Z. (2016). <em>Incompatible: The GDPR in the Age of Big Data</em>. Seton Hall Law Review, 47, 995 - 1020.</p>
+    <p>Lee, E. A., & Seshia, S. A. (2016). <em>Introduction to Embedded Systems: A Cyber - Physical Systems Approach</em>. MIT Press.</p>
+    <p>Marwedel, P. (2010). <em>Embedded System Design: Embedded Systems Foundations of Cyber - Physical Systems</em>. Springer.</p>
+    <p>Wolf, W. (2008). <em>Computers as Components: Principles of Embedded Computing System Design</em>. Morgan Kaufmann.</p>
+    <p>“Acoustic classification of individual cat vocalizations in evolving environments”, <em>Applied Animal Behaviour Science</em>.</p>
+    <p>“Melody Matters: An Acoustic Study of Domestic Cat Meows in Six Contexts and Four Mental States”.</p>
+    <p>“Acoustic classification of individual cat vocalizations in evolving environments”.</p>
+    <p>Paola Laiolo, “The emerging significance of bioacoustics in animal species conservation,” <em>Biological Conservation</em>, vol. 143, no. 7, pp. 1635–1645, July 2010.</p>
+    <p>D. Stowell, E. Benetos, and L. F. Gill, “On - bird sound recordings: Automatic acoustic recognition of activities and contexts,” <em>IEEE/ACM TASLP</em>, vol. 25, no. 6, pp. 1193–1206, June 2017.</p>
+    <p>Iraklis Rigakis, Ilyas Potamitis, Nicolaos - Alexandros Tatlas, Ioannis Livadaras, and Stavros Ntalampiras, “A multispectral backscattered light recorder of insects’ wingbeats,” <em>Electronics</em>, vol. 8, no. 3, Mar. 2019.</p>
+
+    <h2>Author Information</h2>
+    <p>Author: Chengdu One Smart Technology Co., LTD</p>
+    <p>Contact: <a href="mailto:hello@onesmart.com">hello@onesmart.com</a></p>
+</body>
+
+</html>
