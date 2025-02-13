@@ -1,6 +1,9 @@
 
-//admob
+//cs-android-admob
 google.com, pub-4231107115099950, DIRECT, f08c47fec0942fa0
+
+//fb
+facebook.com, 1086108489760642, DIRECT, c3e20eee3f780d68
 
 //Pangle
 pangleglobal.com, 5021813, DIRECT
@@ -1478,3 +1481,5 @@ pubnative.net, 1010073, RESELLER, d641df8625486a7b
 connekt.ai, 2852512, RESELLER
 adyoulike.com, e48120b055ac0abcc41c0093bf3fe02e, RESELLER
 lijit.com, 543478, RESELLER, fafdf38b16bf6b2b
+
+
