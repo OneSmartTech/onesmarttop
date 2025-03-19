@@ -724,6 +724,12 @@ openx.com, 561365249, RESELLER, 6a698e2ec38604c6
 Media.net, 8CU5L226O, RESELLER
 smaato.com, 1100057546, DIRECT, 07bcf65f187117b4
 smaato.com, 1100004890, DIRECT, 07bcf65f187117b4
+adform.com, 1762, RESELLER
+smartadserver.com, 3627, RESELLER, 060d053dcf45cbf3
+sharethrough.com, 4762, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, 5026, RESELLER, d53b998a7bd4ecd2
+appnexus.com, 17044, RESELLER
+xandr.com, 17044, RESELLER
 
 //TOPON
 toponad.com, 167735b527d6ed, DIRECT, 1d49fe424a1a456d
@@ -1603,3 +1609,5 @@ xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
 yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
 zmaticoo.com, 5135655, RESELLER
+adyoulike.com, 996107665, RESELLER, 2d578cf695c89ec2ba707280319d2020
+indexexchange.com, 211341, RESELLER, 50b1c356f2c5c8fc
