@@ -1393,6 +1393,22 @@ tpmn.io, 391, RESELLER
 opera.com, pub12998959884416, RESELLER, 55a0c5fd61378de3
 adsinteractive.com, 39993, RESELLER
 adingo.jp, 32534, RESELLER
+acexchange.co.kr, 1368497933, RESELLER
+adbro.me, ddb75a63-1726-4176-af2a-cb4527edc652, RESELLER
+adiiix.com, 1b5c093d, RESELLER
+admixer.net, 1046d8dc-f1a9-439d-a8a5-3401fda83729, RESELLER
+algorix.co, 60376, RESELLER, 5b394c12fea27a1d
+aralego.com, par-AA7B236BA32DD484C838E249362437B8, RESELLER
+betweendigital.com, 44917, RESELLER
+chocolateplatform.com, 21403, RESELLER
+inmobi.com, fe4db13744124582a6a2b18964560ce7, RESELLER, 83e75a7ae333ca9d
+pubmatic.com, 160888, RESELLER, 5d62403b186f2ace
+pubmatic.com, 163120, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 27052, RESELLER, 0bfd66d529a55807
+smartadserver.com, 4395, RESELLER, 060d053dcf45cbf3
+ucfunnel.com, par-AA7B236BA32DD484C838E249362437B8, RESELLER
+voisetech.com, 1127, RESELLER, 9009ef0379162448
+yeahmobi.com, 5135370, RESELLER
 
 //INMOBI
 inmobi.com, 794535ae9b2c4a0b96e48d59c4265c8f, DIRECT, 83e75a7ae333ca9d
