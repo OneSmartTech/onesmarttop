@@ -2907,4 +2907,23 @@ video.unrulymedia.com, 389957698, RESELLER
 opera.com, pub6843437470464, RESELLER, 55a0c5fd61378de3
 lijit.com, 558045, RESELLER, fafdf38b16bf6b2b
 bidmachine.io, 113, RESELLER
+conversantmedia.com, 100880, RESELLER, 03113cd04947736d
+appnexus.com, 4052, RESELLER, f5ab79cb980f11d1
+152media.info,152M698,RESELLER
+conversantmedia.com, 100658, RESELLER, 03113cd04947736d
+conversantmedia.com, 100660, RESELLER, 03113cd04947736d
+conversantmedia.com, 100661, RESELLER, 03113cd04947736d
+conversantmedia.com, 100662, RESELLER, 03113cd04947736d
+conversantmedia.com, 100663, RESELLER, 03113cd04947736d
+conversantmedia.com, 100670, RESELLER, 03113cd04947736d
+conversantmedia.com, 100671, RESELLER, 03113cd04947736d
+conversantmedia.com, 100672, RESELLER, 03113cd04947736d
+conversantmedia.com, 100677, RESELLER, 03113cd04947736d
+conversantmedia.com, 100688, RESELLER, 03113cd04947736d
+conversantmedia.com, 100691, RESELLER, 03113cd04947736d
+conversantmedia.com, 100659, RESELLER, 03113cd04947736d
+conversantmedia.com, 100713, RESELLER, 03113cd04947736d
+Media.net, 8CUE65SNU ,RESELLER
+33across.com, 001Pg00000LoMyvIAF, RESELLER, bbea06d9c4d2853c
+conversantmedia.com, 100611, RESELLER, 03113cd04947736d
 
